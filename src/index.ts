@@ -18,7 +18,7 @@ const min = 0
  * @param {number} height of the wood
  * @returns {number} length of the wood
  */
-function boardFootCalculator (width: number, height: number): number {
+function boardFootCalculator(width: number, height: number): number {
   const BOARD_FOOT_VOLUME = 144
   const length = BOARD_FOOT_VOLUME / (width * height)
   return length
